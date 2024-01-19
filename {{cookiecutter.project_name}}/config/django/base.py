@@ -114,7 +114,7 @@ DATABASES["default"]["ATOMIC_REQUESTS"] = True
 if os.environ.get("GITHUB_WORKFLOW"):
     DATABASES = {
         "default": {
-            "ENGINE": "django.db.backends.{{cookiecutter.database}}",
+            "ENGINE": "django.db.backends.{{cookiecutter.db_engine}}",
             "NAME": "{{cookiecutter.db_name}}",
             "USER": "{{cookiecutter.db_user}}",
             "PASSWORD": "{{cookiecutter.db_password}}",

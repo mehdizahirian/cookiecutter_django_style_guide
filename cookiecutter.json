@@ -1,0 +1,6 @@
+{
+    "project_name": "MyProject",
+    "project_slug": "{{ cookiecutter.project_name|lower|replace(' ', '_') }}"
+
+    
+}

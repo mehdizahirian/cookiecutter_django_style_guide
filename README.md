@@ -10,5 +10,5 @@ pip install cookiecutter
 
 # Usage
 ```
-cookiecutter https://github.com/HackSoftware/Django-Styleguide-Example.git
+cookiecutter https://github.com/mehdizahirian/cookiecutter_django_style_guide.git
 ```

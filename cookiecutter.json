@@ -1,6 +1,11 @@
 {
     "project_name": "MyProject",
-    "project_slug": "{{ cookiecutter.project_name|lower|replace(' ', '_') }}"
+    "project_slug": "{{ cookiecutter.project_name|lower|replace(' ', '_') }}",
 
-    
+
+    "db_engine": ["postgresql", "mysql", "sqlite"],
+    "db_name": "dbName",
+    "db_user": "root",
+    "db_password": "root"
+
 }
